@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>contact form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <div class="leftNav"><img src="img/hospital_logo-removebg-preview.png" alt="logo"></div>
+        <div class="rightNav">
+            <a href="index.html">home</a>
+            <a href="epay.html">e-pay</a>
+            <a href="singup.html">login/signup</a>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="mail_img">
+            <img src="img/mail-unread-outline.svg" alt="mail image">
+        </div>
+        <div class="form_box">
+            <form action="form.php">
+                <div>Get in touch</div>
+                <input type="text" placeholder="Name" class="form_part" id="name">
+                <input type="text" placeholder="Last Name" class="form_part">
+                <input type="email" placeholder="email" class="form_part">
+                <input type="phone number" placeholder="phone number" class="form_part">
+                <textarea name="textarea" placeholder="Enter your query" id="notes" maxlength="400"></textarea>
+                <input type="submit" id="submit_btn">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

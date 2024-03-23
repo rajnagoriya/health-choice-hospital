@@ -1,0 +1,70 @@
+/* this section for contact form */
+.contact {
+    height: 100vh;
+    background: linear-gradient(120deg,rgb(190, 190, 240), rgb(156, 156, 199), rgb(159, 159, 219), rgb(75, 75, 155));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 25px rgb(65, 141, 204);
+}
+
+.mail_img {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_box {
+    width: 40vw;
+    border: 2px solid rgb(58, 57, 57);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_box div {
+    font-size: 3rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.form_box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_part {
+    width: 30vw;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+#notes {
+    height: 200px;
+    width: 30vw;
+    text-align: start;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#submit_btn {
+    color: #fff;
+    background-color: #0a0a0a;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+#submit_btn:hover {
+    transform: scale(1.2);
+}

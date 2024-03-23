@@ -1,0 +1,35 @@
+/* login singup */
+.singup_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.singup_box{
+    height: 60vh;
+    width: 45vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.singup_box h3{
+font-size: 2rem;
+color: #fff;
+}
+.sup_part{
+    padding: 1%;
+    margin: 3% auto;
+    width:100%;
+   border: solid black;
+   border-radius: 5px;
+}
+#submit{
+    width: 20%;
+    background-color: rgb(67, 67, 245);
+}
+#submit:hover{
+ background-color: rgb(115, 93, 235);
+}
